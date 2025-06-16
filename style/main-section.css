@@ -1,0 +1,35 @@
+.main-section{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 75%;
+    height: 600px;
+}
+
+/* Title Bar Section Begin */
+
+.title-bar{
+    display: flex;
+    padding: 0 5px;
+}
+
+.logo-box{
+    display: flex;
+    align-items: center;
+    color: #31389E;
+}
+
+.logo-box img{
+    position: relative;
+    height: 45px;
+    width: 60px;
+    transform: rotate(-0.05turn);
+    z-index: -1;
+}
+
+.logo-box h1{
+    font-family: "Caprasimo", serif;
+    font-size: 24px;
+}
+/* Title Bar Section End */
